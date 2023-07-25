@@ -13,7 +13,12 @@
   margin-bottom: 10px;
   text-align: left;
 }
-.qr .input-here input {
+@media (max-width: 768px) {
+  .qr h1 {
+    font-size: 25px;
+  }
+}
+.qr input {
   font-size: large;
   border-radius: 4px;
   padding: 8px;
